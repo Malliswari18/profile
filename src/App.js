@@ -6,9 +6,10 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+
 function App() {
   return (
-    <Router>
+    <Router basename="/profile">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,4 +22,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
