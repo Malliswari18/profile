@@ -63,7 +63,7 @@ function Home() {
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          I'am<br></br>I'am<br></br>
+          <br></br>I'am<br></br>
         </h1>
         <h1
           ref={h12}
